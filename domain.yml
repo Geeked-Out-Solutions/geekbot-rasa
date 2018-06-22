@@ -8,7 +8,6 @@ intents:
   - pi_install
   - docker_install
 
-
 actions:
 - utter_greet
 - utter_goodbye

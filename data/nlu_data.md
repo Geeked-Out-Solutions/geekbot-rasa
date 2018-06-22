@@ -44,3 +44,21 @@
 - how do I install mycroft
 - I need help installing mycroft
 - how can I install mycroft
+
+
+## intent:linux_install
+- how do I install mycroft on linux
+- install mycroft on linux
+- I need instructions for installing mycroft on linux
+- linux
+- Linux
+
+## intent:pi_install
+- how do I install mycroft on a pi
+- how can I install mycroft on a raspberry pi
+- where are the pi install instructions
+
+## intent:docker_install
+- how do I install mycroft on docker
+- how can I use mycroft with docker
+- is there a docker image for mycroft
