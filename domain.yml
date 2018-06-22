@@ -3,6 +3,10 @@ intents:
   - goodbye
   - mycroft_help
   - about_me
+  - mycroft_installation
+  - linux_install
+  - pi_install
+  - docker_install
 
 
 actions:
@@ -10,6 +14,10 @@ actions:
 - utter_goodbye
 - utter_mycroft_help
 - utter_about_me
+- utter_mycroft_installation
+- utter_linux_install
+- utter_pi_install
+- utter_docker_install
 
 templates:
   utter_greet:
@@ -25,7 +33,31 @@ templates:
   - text: "Bye"
 
   utter_mycroft_help:
-  - text: "This is where Mycroft Help will go..."
+  - text: "Ok I can help with the following Mycroft related questions"
+    buttons:
+    - title: "Installation"
+      payload: "mycroft_installation"
 
   utter_about_me:
   - text: "This is where the about me will go..."
+
+  utter_mycroft_installation:
+  - text: "What Operating System are you trying to install on?"
+    buttons:
+    - title: "Linux"
+      payload: "linux_install"
+    - title: "Pi"
+      payload: "pi_install"
+    - title: "Docker"
+      payload: "docker_install"
+
+## Mycroft Installation Responses
+
+  utter_linux_install:
+  - text: "The instructions for installing Mycroft on linux can be found at - https://mycroft.ai/documentation/linux/"
+
+  utter_pi_install:
+  - text: "The instructions for installing Mycroft on a raspberry pi can be found at - https://mycroft.ai/documentation/picroft/"
+
+  utter_docker_install:
+  - text: "The instructions for installing Mycroft on docker can be found at - https://github.com/MycroftAI/docker-mycroft"

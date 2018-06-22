@@ -39,3 +39,8 @@
 - who made you
 - what do you run on
 - what powers you
+
+## intent:mycroft_installation
+- how do I install mycroft
+- I need help installing mycroft
+- how can I install mycroft
