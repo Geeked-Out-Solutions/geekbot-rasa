@@ -3,7 +3,7 @@ intents:
   - goodbye
   - mycroft_help
   - about_me
-  - ask_os
+  - choose_os
   - linux_install
   - pi_install
   - docker_install
@@ -24,7 +24,7 @@ actions:
 - utter_goodbye
 - utter_mycroft_help
 - utter_about_me
-- utter_ask_os
+- utter_choose_os
 - utter_linux_install
 - utter_pi_install
 - utter_docker_install
@@ -45,20 +45,16 @@ templates:
   - text: "Ok I can help with the following Mycroft related questions"
     buttons:
     - title: "Installation"
-      payload: "/ask_os"
+      payload: "/choose_os"
 
   utter_about_me:
   - text: "This is where the about me will go..."
 
-  utter_ask_os:
+  utter_choose_os:
   - text: "What Operating System are you trying to install on?"
     buttons:
     - title: "Linux"
       payload: "/choose_os{\"os\": \"linux\"}"
-    - title: "Raspberry Pi"
-      payload: "/choose_os{\"os\": \"pi\"}"
-    - title: "Docker"
-      payload: "/choose_os{\"os\": \"docker\"}"
 
 
 ## Mycroft Installation Responses

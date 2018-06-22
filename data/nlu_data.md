@@ -40,7 +40,7 @@
 - what do you run on
 - what powers you
 
-## intent:mycroft_installation
+## intent:choose_os
 - how do I install mycroft
 - I need help installing mycroft
 - how can I install mycroft
