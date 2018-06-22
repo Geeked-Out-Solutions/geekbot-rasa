@@ -7,6 +7,7 @@ intents:
   - linux_install
   - pi_install
   - docker_install
+  - mycroft_docs
 
 entities:
  - os
@@ -28,6 +29,7 @@ actions:
 - utter_linux_install
 - utter_pi_install
 - utter_docker_install
+- utter_mycroft_docs
 
 templates:
   utter_greet:
@@ -46,6 +48,8 @@ templates:
     buttons:
     - title: "Installation"
       payload: "/choose_os"
+    - title: "Documentation"
+      payload: "/mycroft_docs"
 
   utter_about_me:
   - text: "This is where the about me will go..."
@@ -71,3 +75,8 @@ templates:
 
   utter_docker_install:
   - text: "The instructions for installing Mycroft on docker can be found at - https://github.com/MycroftAI/docker-mycroft"
+
+## Mycroft Docs
+
+  utter_mycroft_docs:
+  - text: "The mycroft documentation can be found at https://mycroft.ai/documentation/"

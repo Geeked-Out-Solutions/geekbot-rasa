@@ -27,3 +27,11 @@
   - utter_docker_install 
 * goodbye
   - utter_goodbye
+  
+## mycroft docs
+* greet              
+  - utter_greet
+* mycroft_help               
+  - utter_mycroft_help
+* mycroft_docs
+  - utter_mycroft_docs
