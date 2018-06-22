@@ -50,8 +50,7 @@
 - how do I install mycroft on linux
 - install mycroft on linux
 - I need instructions for installing mycroft on linux
-- linux
-- Linux
+
 
 ## intent:pi_install
 - how do I install mycroft on a pi
