@@ -55,6 +55,10 @@ templates:
     buttons:
     - title: "Linux"
       payload: "/choose_os{\"os\": \"linux\"}"
+    - title: "Raspberry Pi"
+      payload: "/choose_os{\"os\": \"pi\"}"
+    - title: "Docker"
+      payload: "/choose_os{\"os\": \"docker\"}"
 
 
 ## Mycroft Installation Responses
