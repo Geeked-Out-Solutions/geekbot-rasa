@@ -1,0 +1,15 @@
+## mycroft help path             <!-- name of the story - just for debugging -->
+* greet              
+  - utter_greet
+* mycroft_help               <!-- user utterance, in format _intent[entities] -->
+  - utter_mycroft_help
+
+## about me path               <!-- this is already the start of the next story -->
+* greet
+  - utter_greet             <!-- action of the bot to execute -->
+* about_me
+  - utter_about_me
+
+## say goodbye
+* goodbye
+  - utter_goodbye

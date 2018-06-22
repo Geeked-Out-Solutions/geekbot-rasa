@@ -1,0 +1,31 @@
+intents:
+  - greet
+  - goodbye
+  - mycroft_help
+  - about_me
+
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_mycroft_help
+- utter_about_me
+
+templates:
+  utter_greet:
+  - text: "Hello, how may I help you?"
+    buttons:
+    - title: "Mycroft Help"
+      payload: "mycroft_help"
+    - title: "About Me"
+      payload: "about_me"
+
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_mycroft_help:
+  - text: "This is where Mycroft Help will go..."
+
+  utter_about_me:
+  - text: "This is where the about me will go..."
