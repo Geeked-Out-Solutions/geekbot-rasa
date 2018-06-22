@@ -13,3 +13,11 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+  
+## About Me
+* about_me
+  - utter_about_me
+  
+## Mycroft Help
+* mycroft_help
+  - utter_mycroft_help
