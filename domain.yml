@@ -52,7 +52,7 @@ templates:
       payload: "/mycroft_docs"
 
   utter_about_me:
-  - text: "This is where the about me will go..."
+  - text: "I am a open source bot written in Python using https://rasa.ai and can answer questions about the Open Voice Assistant Project https://mycroft.ai"
 
   utter_choose_os:
   - text: "What Operating System are you trying to install on?"

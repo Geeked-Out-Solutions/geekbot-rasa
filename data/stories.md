@@ -18,16 +18,13 @@
 > check_asked_os
 * utter_choose_os[os=pi]
   - utter_pi_install  
-* goodbye
-  - utter_goodbye
+
   
 ## user answers Docker
 > check_asked_os
 * utter_choose_os[os=docker]
   - utter_docker_install 
-* goodbye
-  - utter_goodbye
-  
+
 ## mycroft docs
 * greet              
   - utter_greet
@@ -35,3 +32,9 @@
   - utter_mycroft_help
 * mycroft_docs
   - utter_mycroft_docs
+  
+## about me
+* greet              
+  - utter_greet
+* about_me               
+  - utter_about_me
