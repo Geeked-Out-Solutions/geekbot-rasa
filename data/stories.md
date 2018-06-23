@@ -9,19 +9,19 @@
 
 ## user answers Linux
 > check_asked_os
-* utter_choose_os[os=linux]
+* choose_os[os=linux]
   - utter_linux_install
 * goodbye
   - utter_goodbye
     
 ## user answers Pi
 > check_asked_os
-* utter_choose_os[os=pi]
+* choose_os[os=pi]
   - utter_pi_install  
   
 ## user answers Docker
 > check_asked_os
-* utter_choose_os[os=docker]
+* choose_os[os=docker]
   - utter_docker_install 
 
 ## mycroft docs
