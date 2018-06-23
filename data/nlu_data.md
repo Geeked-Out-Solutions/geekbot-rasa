@@ -31,6 +31,9 @@
 - I need help with mycroft
 - Can you answer mycroft questions
 - I need help with mycroft
+- what can you do
+- what can you help with
+- help
 
 ## intent:about_me
 - about me
@@ -61,3 +64,13 @@
 - how do I install mycroft on docker
 - how can I use mycroft with docker
 - is there a docker image for mycroft
+
+## intent:mycroft_docs
+- where is the mycroft documentation
+- where are the mycroft docs
+- where can I find more information about mycroft
+- is there documentation for mycroft
+- can you tell me where the mycroft documentation is
+- can you tell me where the docs are
+- where are the docs
+- where is the documentation located
