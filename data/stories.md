@@ -18,7 +18,6 @@
 > check_asked_os
 * utter_choose_os[os=pi]
   - utter_pi_install  
-
   
 ## user answers Docker
 > check_asked_os
