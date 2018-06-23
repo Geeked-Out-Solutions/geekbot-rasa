@@ -74,3 +74,9 @@
 - can you tell me where the docs are
 - where are the docs
 - where is the documentation located
+
+## intent:skills_list
+- where is a list of the skills
+- is there a list of mycroft skills
+- is there a list of skills somewhere
+- what core skills are available

@@ -8,6 +8,7 @@ intents:
   - pi_install
   - docker_install
   - mycroft_docs
+  - skills_list
 
 entities:
  - os
@@ -30,6 +31,7 @@ actions:
 - utter_pi_install
 - utter_docker_install
 - utter_mycroft_docs
+- utter_skills_list
 
 templates:
   utter_greet:
@@ -50,6 +52,8 @@ templates:
       payload: "/choose_os"
     - title: "Documentation"
       payload: "/mycroft_docs"
+    - title: "Skills List"
+      payload: "/skills_list"
 
   utter_about_me:
   - text: "I am a open source bot written in Python using https://rasa.ai and can answer questions about the Open Voice Assistant Project https://mycroft.ai"
@@ -80,3 +84,7 @@ templates:
 
   utter_mycroft_docs:
   - text: "The mycroft documentation can be found at https://mycroft.ai/documentation/"
+
+## Mycroft Skills List
+  utter_skills_list:
+  - text: "A list of core and community skills and can be found at https://mycroft.ai/documentation/skills/#core-skills"

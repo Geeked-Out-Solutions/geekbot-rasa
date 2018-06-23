@@ -32,6 +32,14 @@
 * mycroft_docs
   - utter_mycroft_docs
   
+## skills list
+* greet              
+  - utter_greet
+* mycroft_help               
+  - utter_mycroft_help
+* skills_list
+  - utter_skills_list
+  
 ## about me
 * greet              
   - utter_greet
