@@ -1,3 +1,11 @@
+slots:
+ os:
+   type: categorical
+   values:
+   - linux
+   - pi
+   - docker
+
 intents:
   - greet
   - goodbye
@@ -9,17 +17,10 @@ intents:
   - docker_install
   - mycroft_docs
   - skills_list
+  - thankyou
 
 entities:
  - os
-
-slots:
- os:
-   type: categorical
-   values:
-   - linux
-   - pi
-   - docker
 
 actions:
 - utter_greet
@@ -32,6 +33,7 @@ actions:
 - utter_docker_install
 - utter_mycroft_docs
 - utter_skills_list
+- utter_youarewelcome
 
 templates:
   utter_greet:
@@ -44,6 +46,9 @@ templates:
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_youarewelcome:
+  - text: "You are quite welcome, have a good day"
 
   utter_mycroft_help:
   - text: "Ok I can help with the following Mycroft related questions"
@@ -61,11 +66,11 @@ templates:
   utter_choose_os:
   - text: "What Operating System are you trying to install on?"
     buttons:
-    - title: "Linux"
+    - title: "linux"
       payload: "/choose_os{\"os\": \"linux\"}"
-    - title: "Pi"
+    - title: "pi"
       payload: "/choose_os{\"os\": \"pi\"}"
-    - title: "Docker"
+    - title: "docker"
       payload: "/choose_os{\"os\": \"docker\"}"
 
 

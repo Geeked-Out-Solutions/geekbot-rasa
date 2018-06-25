@@ -13,6 +13,13 @@
 - goodevening
 - good afternoon
 
+## intent:thankyou
+- thanks
+- appreciate it
+- thank you
+- thankyou
+
+
 ## intent:goodbye
 - cu
 - good by
@@ -50,20 +57,22 @@
 
 
 ## intent:linux_install
-- how do I install mycroft on linux
-- install mycroft on linux
-- I need instructions for installing mycroft on linux
-
+- how do I install mycroft on [linux](os)
+- install mycroft on [linux](os)
+- I need instructions for installing mycroft on [linux](os)
+- how do I install mycroft on [linux](os)
+- where can I find the [linux](os) install instructions
+- can you give me the link to the [linux](os) install instructions
 
 ## intent:pi_install
-- how do I install mycroft on a pi
-- how can I install mycroft on a raspberry pi
-- where are the pi install instructions
+- how do I install mycroft on a [pi](os)
+- how can I install mycroft on a raspberry [pi](os)
+- where are the [pi](os) install instructions
 
 ## intent:docker_install
-- how do I install mycroft on docker
-- how can I use mycroft with docker
-- is there a docker image for mycroft
+- how do I install mycroft on [docker](os)
+- how can I use mycroft with [docker](os)
+- is there a [docker](os) image for mycroft
 
 ## intent:mycroft_docs
 - where is the mycroft documentation
